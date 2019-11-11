@@ -35,4 +35,8 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
+  class ENNET_HOUSE
+    def []=(row, column, new_value)
+      @rows[row, column] = new_value
+    end
 end
