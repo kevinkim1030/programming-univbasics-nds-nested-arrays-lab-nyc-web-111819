@@ -18,8 +18,8 @@ ENFIELD_TENNIS_ACADEMY = [
 
 def assembled_matrix
   all_residents = [
-    [ENNET_HOUSE],
-    [ENFIELD_TENNIS_ACADEMY]
+    ENNET_HOUSE,
+    ENFIELD_TENNIS_ACADEMY
     ]
 end
 
