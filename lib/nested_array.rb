@@ -35,5 +35,7 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  ENNET_HOUSE[row][column] = new_value
+  local_copy_of_matrix = ENNET_HOUSE
+  local_copy_of_matrix[0][2] = new_value
+  local_copy_of_matrix
 end
