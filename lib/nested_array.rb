@@ -24,7 +24,7 @@ def assembled_matrix
 end
 
 def array_literal_matrix
-  all_residents.sort
+  assembled_matrix.sort
 end
 
 def matrix_lookup(matrix, row, column)
